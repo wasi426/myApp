@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:layout_width="216dp"
+        android:layout_height="205dp"
+        android:src="@drawable/vtr"
+        tools:layout_editor_absoluteX="97dp"
+        tools:layout_editor_absoluteY="79dp" />
+
+    <Button
+        android:id="@+id/signup"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:hint="Singup"
+        android:textColor="@color/white"
+        android:textSize="30dp"
+        android:background="@drawable/shape"
+        tools:layout_editor_absoluteX="55dp"
+        tools:layout_editor_absoluteY="397dp" />
+
+    <Button
+        android:id="@+id/login"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:hint="Login"
+        android:textColor="@color/white"
+        android:textSize="30dp"
+        android:background="@drawable/shape"
+        tools:layout_editor_absoluteX="55dp"
+        tools:layout_editor_absoluteY="493dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Laundry App"
+        android:textColor="@color/white"
+        android:textSize="40dp"
+        android:gravity="center"
+        android:background="@drawable/shape"
+        tools:layout_editor_absoluteX="104dp"
+        tools:layout_editor_absoluteY="641dp" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
